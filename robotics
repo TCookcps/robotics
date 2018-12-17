@@ -1,0 +1,48 @@
+package org.usfirst.frc.team6969.robot;
+import.edu.woi.first.wpuiloj.spark;
+
+
+public class Robot extends InteractiveRobot { 
+
+private Spark frontLeft;
+private Spark frontRight;
+private Spark backLeft;
+private Spark backRight;
+
+Driverstation matchInfo = Driverstation.getInstance();
+
+Joystick joy1 = new Joystick(0)
+
+}
+
+public void robotInit() {
+
+frontLeft = new Spark(0);
+frontRight = new Spark(1);
+backLeft = new Spark(0);
+backRight = new Spark(1);
+
+} 
+
+public void autonomusInit() {
+
+
+}
+
+public void autonomous Periodic() {
+
+}
+
+public void teleopInit() {
+
+}
+
+public void teleopPeriodic() {
+double y = joy1.getRawAxis(1);
+double x = joy1.getRawAxis(5);
+
+frontLeft
+
+
+
+}
